@@ -1,0 +1,38 @@
+# Development files
+/.git
+/.gitignore
+/.github
+/node_modules
+/tests
+/vendor
+
+# Build tools
+/phpcs.xml.dist
+/phpunit.xml.dist
+/composer.json
+/composer.lock
+/.editorconfig
+/.eslintrc
+/.prettierrc
+
+# Documentation (dev only)
+/README.md
+/CONTRIBUTING.md
+/SECURITY.md
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files
+/.vscode
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

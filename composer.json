@@ -1,0 +1,36 @@
+
+{
+	"name": "fotograf/ft-ctp",
+	"description": "Custom Post Types for fotografkadomca website",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"wp-coding-standards/wpcs": "^3.0"
+	},
+	"scripts": {
+		"lint:php": "phpcs --standard=phpcs.xml.dist .",
+		"format:php": "phpcbf --standard=phpcs.xml.dist .",
+		"build": [
+			"@composer install --no-dev --optimize-autoloader",
+			"@composer archive --format=zip --dir=build --file=ft-custom-post-types"
+		],
+		"dist": [
+			"rm -rf build",
+			"mkdir -p build",
+			"@build",
+			"@composer install"
+		]
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"optimize-autoloader": true,
+		"sort-packages": true
+	}
+}

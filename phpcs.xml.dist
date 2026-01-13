@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards for FT Custom Post Types">
+	<description>Strict ruleset for FT Custom Post Types plugin</description>
+
+	<!-- Avoid noisy deprecation notices from sniffs on newer PHP -->
+	<ini name="error_reporting" value="E_ALL &amp; ~E_DEPRECATED" />
+
+	<!-- Scan everything except vendor and non-PHP assets -->
+	<file>.</file>
+	<exclude-pattern>/vendor/</exclude-pattern>
+	<exclude-pattern>/languages/</exclude-pattern>
+	<exclude-pattern>/templates/</exclude-pattern>
+	<exclude-pattern>*.json</exclude-pattern>
+
+	<!-- WordPress coding standards (Extra) -->
+	<rule ref="WordPress-Extra">
+		<!-- Allow PSR-4 file naming (PascalCase class files) -->
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+	</rule>
+
+	<!-- Enforce text domain for i18n -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="ft-ctp"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Enforce prefixing for globals/functions/classes/constants/etc. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="ft_cpt"/>
+				<element value="FT_CPT"/>
+				<element value="FT_CustomPostTypes"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!-- Whitespace strictness -->
+	<rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
+		<properties>
+			<property name="blank_line_check" value="true" />
+		</properties>
+	</rule>
+
+	<!-- PHP compatibility checks for WordPress context -->
+	<rule ref="PHPCompatibilityWP">
+		<properties>
+			<!-- Target PHP version: align with plugin requirements -->
+			<property name="testVersion" value="7.4-"/>
+			<!-- Set minimum supported WP version (align with plugin headers) -->
+			<property name="minimum_supported_wp_version" value="6.0"/>
+		</properties>
+	</rule>
+
+	<!-- Make sure WordPress functions are safe for installations before WP 6.0 -->
+	<config name="minimum_wp_version" value="6.0"/>
+</ruleset>
