@@ -7,7 +7,10 @@
 
 namespace FT_CustomPostTypes;
 
+use FT_CustomPostTypes\PostTypes\Portfolio;
 use FT_CustomPostTypes\PostTypes\Service;
+use FT_CustomPostTypes\Taxonomies\PortfolioCategory;
+use FT_CustomPostTypes\Taxonomies\PortfolioTag;
 use FT_CustomPostTypes\Taxonomies\ServiceCategory;
 use FT_CustomPostTypes\Taxonomies\ServiceTag;
 
@@ -28,12 +31,15 @@ class Plugin {
 	 */
 	public function __construct() {
 		$this->post_types = array(
-			'service' => new Service(),
+			'service'   => new Service(),
+			'portfolio' => new Portfolio(),
 		);
 
 		$this->taxonomies = array(
-			'service_category' => new ServiceCategory(),
-			'service_tag'      => new ServiceTag(),
+			'service_category'   => new ServiceCategory(),
+			'service_tag'        => new ServiceTag(),
+			'portfolio_category' => new PortfolioCategory(),
+			'portfolio_tag'      => new PortfolioTag(),
 		);
 	}
 

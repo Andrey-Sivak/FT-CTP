@@ -38,6 +38,7 @@ msgstr "Andrii Sivak"
 msgid "https://github.com/Andrey-Sivak"
 msgstr "https://github.com/Andrey-Sivak"
 
+#: includes/PostTypes/Portfolio.php:33
 #: includes/PostTypes/Service.php:33
 msgid "Add New"
 msgstr "Přidat nový"
@@ -297,7 +298,7 @@ msgstr "Vyberte z nejpoužívanějších štítků služeb"
 
 #: includes/Taxonomies/ServiceTag.php:54
 msgid "No Service Tags found."
-msgstr "Nebyly nalezeny žádné štítky služeb."
+msgstr "Nebyly nalezeny žádné štítky služeb"
 
 #: includes/Taxonomies/ServiceTag.php:55
 msgid "No Service Tags"
@@ -314,3 +315,268 @@ msgstr "Seznam štítků služeb"
 #: includes/Taxonomies/ServiceTag.php:58
 msgid "← Back to Service Tags"
 msgstr "← Zpět na štítky služeb"
+
+#: includes/PostTypes/Portfolio.php:29
+msgctxt "Post type general name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/PostTypes/Portfolio.php:30
+msgctxt "Post type singular name"
+msgid "Portfolio Item"
+msgstr "Položka portfolia"
+
+#: includes/PostTypes/Portfolio.php:31
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/PostTypes/Portfolio.php:32
+msgid "Portfolio Item"
+msgstr "Položka portfolia"
+
+#: includes/PostTypes/Portfolio.php:34
+msgid "Add New Portfolio Item"
+msgstr "Přidat novou položku portfolia"
+
+#: includes/PostTypes/Portfolio.php:35
+msgid "New Portfolio Item"
+msgstr "Nová položka portfolia"
+
+#: includes/PostTypes/Portfolio.php:36
+msgid "Edit Portfolio Item"
+msgstr "Upravit položku portfolia"
+
+#: includes/PostTypes/Portfolio.php:37
+msgid "View Portfolio Item"
+msgstr "Zobrazit položku portfolia"
+
+#: includes/PostTypes/Portfolio.php:38
+msgid "View Portfolio"
+msgstr "Zobrazit portfolio"
+
+#: includes/PostTypes/Portfolio.php:39
+msgid "All Portfolio Items"
+msgstr "Všechny položky portfolia"
+
+#: includes/PostTypes/Portfolio.php:40
+msgid "Search Portfolio"
+msgstr "Hledat v portfoliu"
+
+#: includes/PostTypes/Portfolio.php:41
+msgid "Parent Portfolio Item:"
+msgstr "Nadřazená položka portfolia:"
+
+#: includes/PostTypes/Portfolio.php:42
+msgid "No portfolio items found."
+msgstr "Nebyly nalezeny žádné položky portfolia."
+
+#: includes/PostTypes/Portfolio.php:43
+msgid "No portfolio items found in Trash."
+msgstr "V koši nebyly nalezeny žádné položky portfolia."
+
+#: includes/PostTypes/Portfolio.php:44
+msgid "Portfolio Archives"
+msgstr "Archivy portfolia"
+
+#: includes/PostTypes/Portfolio.php:45
+msgid "Portfolio Item Attributes"
+msgstr "Atributy položky portfolia"
+
+#: includes/PostTypes/Portfolio.php:46
+msgid "Insert into portfolio item"
+msgstr "Vložit do položky portfolia"
+
+#: includes/PostTypes/Portfolio.php:47
+msgid "Uploaded to this portfolio item"
+msgstr "Nahráno k této položce portfolia"
+
+#: includes/PostTypes/Portfolio.php:48
+msgid "Filter portfolio items list"
+msgstr "Filtrovat seznam položek portfolia"
+
+#: includes/PostTypes/Portfolio.php:49
+msgid "Portfolio items list navigation"
+msgstr "Navigace seznamu položek portfolia"
+
+#: includes/PostTypes/Portfolio.php:50
+msgid "Portfolio items list"
+msgstr "Seznam položek portfolia"
+
+#: includes/PostTypes/Portfolio.php:67
+msgctxt "URL slug"
+msgid "portfolio"
+msgstr "portfolio"
+
+#: includes/Taxonomies/PortfolioCategory.php:38
+msgctxt "Taxonomy general name"
+msgid "Portfolio Categories"
+msgstr "Kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:39
+msgctxt "Taxonomy singular name"
+msgid "Portfolio Category"
+msgstr "Kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:40
+msgid "Categories"
+msgstr "Kategorie"
+
+#: includes/Taxonomies/PortfolioCategory.php:41
+msgid "All Categories"
+msgstr "Všechny kategorie"
+
+#: includes/Taxonomies/PortfolioCategory.php:42
+msgid "Edit Portfolio Category"
+msgstr "Upravit kategorii portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:43
+msgid "View Portfolio Category"
+msgstr "Zobrazit kategorii portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:44
+msgid "Update Portfolio Category"
+msgstr "Aktualizovat kategorii portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:45
+msgid "Add New Portfolio Category"
+msgstr "Přidat novou kategorii portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:46
+msgid "New Portfolio Category Name"
+msgstr "Název nové kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:47
+msgid "Parent Category"
+msgstr "Nadřazená kategorie"
+
+#: includes/Taxonomies/PortfolioCategory.php:48
+msgid "Parent Category:"
+msgstr "Nadřazená kategorie:"
+
+#: includes/Taxonomies/PortfolioCategory.php:49
+msgid "Search Portfolio Categories"
+msgstr "Hledat kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:50
+msgid "Popular Portfolio Categories"
+msgstr "Oblíbené kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:51
+msgid "Separate categories with commas"
+msgstr "Oddělte kategorie čárkami"
+
+#: includes/Taxonomies/PortfolioCategory.php:52
+msgid "Add or remove categories"
+msgstr "Přidat nebo odebrat kategorie"
+
+#: includes/Taxonomies/PortfolioCategory.php:53
+msgid "Choose from most used categories"
+msgstr "Vyberte z nejpoužívanějších kategorií"
+
+#: includes/Taxonomies/PortfolioCategory.php:54
+msgid "No portfolio categories found."
+msgstr "Nebyly nalezeny žádné kategorie portfolia."
+
+#: includes/Taxonomies/PortfolioCategory.php:55
+msgid "No portfolio categories"
+msgstr "Žádné kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:56
+msgid "Portfolio categories list navigation"
+msgstr "Navigace seznamu kategorií portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:57
+msgid "Portfolio categories list"
+msgstr "Seznam kategorií portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:58
+msgid "← Back to Portfolio Categories"
+msgstr "← Zpět na kategorie portfolia"
+
+#: includes/Taxonomies/PortfolioCategory.php:79
+msgctxt "URL slug"
+msgid "portfolio-category"
+msgstr "kategorie-portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:38
+msgctxt "Taxonomy general name"
+msgid "Portfolio Tags"
+msgstr "Štítky portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:39
+msgctxt "Taxonomy singular name"
+msgid "Portfolio Tag"
+msgstr "Štítek portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:40
+msgid "Tags"
+msgstr "Štítky"
+
+#: includes/Taxonomies/PortfolioTag.php:41
+msgid "All Tags"
+msgstr "Všechny štítky"
+
+#: includes/Taxonomies/PortfolioTag.php:42
+msgid "Edit Portfolio Tag"
+msgstr "Upravit štítek portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:43
+msgid "View Portfolio Tag"
+msgstr "Zobrazit štítek portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:44
+msgid "Update Portfolio Tag"
+msgstr "Aktualizovat štítek portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:45
+msgid "Add New Portfolio Tag"
+msgstr "Přidat nový štítek portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:46
+msgid "New Portfolio Tag Name"
+msgstr "Název nového štítku portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:47
+msgid "Search Portfolio Tags"
+msgstr "Hledat štítky portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:48
+msgid "Popular Portfolio Tags"
+msgstr "Oblíbené štítky portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:49
+msgid "Separate tags with commas"
+msgstr "Oddělte štítky čárkami"
+
+#: includes/Taxonomies/PortfolioTag.php:50
+msgid "Add or remove tags"
+msgstr "Přidat nebo odebrat štítky"
+
+#: includes/Taxonomies/PortfolioTag.php:51
+msgid "Choose from most used tags"
+msgstr "Vyberte z nejpoužívanějších štítků"
+
+#: includes/Taxonomies/PortfolioTag.php:52
+msgid "No portfolio tags found."
+msgstr "Nebyly nalezeny žádné štítky portfolia."
+
+#: includes/Taxonomies/PortfolioTag.php:53
+msgid "No portfolio tags"
+msgstr "Žádné štítky portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:54
+msgid "Portfolio tags list navigation"
+msgstr "Navigace seznamu štítků portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:55
+msgid "Portfolio tags list"
+msgstr "Seznam štítků portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:56
+msgid "← Back to Portfolio Tags"
+msgstr "← Zpět na štítky portfolia"
+
+#: includes/Taxonomies/PortfolioTag.php:77
+msgctxt "URL slug"
+msgid "portfolio-tag"
+msgstr "stitek-portfolia"
