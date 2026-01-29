@@ -51,11 +51,6 @@ msgstr "Služba"
 msgid "Services"
 msgstr "Služby"
 
-#: includes/PostTypes/Service.php:67
-msgctxt "URL slug"
-msgid "services"
-msgstr "sluzby"
-
 #: includes/Taxonomies/ServiceCategory.php:40
 msgid "Service Categories"
 msgstr "Kategorie služeb"
@@ -401,11 +396,6 @@ msgstr "Navigace seznamu položek portfolia"
 #: includes/PostTypes/Portfolio.php:50
 msgid "Portfolio items list"
 msgstr "Seznam položek portfolia"
-
-#: includes/PostTypes/Portfolio.php:67
-msgctxt "URL slug"
-msgid "portfolio"
-msgstr "portfolio"
 
 #: includes/Taxonomies/PortfolioCategory.php:38
 msgctxt "Taxonomy general name"
