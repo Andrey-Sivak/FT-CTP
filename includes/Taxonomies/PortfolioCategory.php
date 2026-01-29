@@ -76,7 +76,7 @@ class PortfolioCategory extends AbstractTaxonomy {
 			'hierarchical'       => true,
 			'query_var'          => true,
 			'rewrite'            => array(
-				'slug'         => _x( 'portfolio-category', 'URL slug', 'ft-ctp' ),
+				'slug'         => 'portfolio-category',
 				'with_front'   => false,
 				'hierarchical' => true,
 			),

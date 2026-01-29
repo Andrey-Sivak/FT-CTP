@@ -76,7 +76,7 @@ class ServiceCategory extends AbstractTaxonomy {
 			'hierarchical'       => true,
 			'query_var'          => true,
 			'rewrite'            => array(
-				'slug'         => _x( 'service-category', 'URL slug', 'ft-ctp' ),
+				'slug'         => 'service-category',
 				'with_front'   => false,
 				'hierarchical' => true,
 			),

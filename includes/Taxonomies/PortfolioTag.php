@@ -74,7 +74,7 @@ class PortfolioTag extends AbstractTaxonomy {
 			'hierarchical'       => false,
 			'query_var'          => true,
 			'rewrite'            => array(
-				'slug'       => _x( 'portfolio-tag', 'URL slug', 'ft-ctp' ),
+				'slug'       => 'portfolio-tag',
 				'with_front' => false,
 			),
 		);

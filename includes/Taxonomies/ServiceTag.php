@@ -76,7 +76,7 @@ class ServiceTag extends AbstractTaxonomy {
 			'hierarchical'       => false,
 			'query_var'          => true,
 			'rewrite'            => array(
-				'slug'       => _x( 'service-tag', 'URL slug', 'ft-ctp' ),
+				'slug'       => 'service-category',
 				'with_front' => false,
 			),
 		);
