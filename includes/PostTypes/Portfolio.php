@@ -64,7 +64,7 @@ class Portfolio extends AbstractPostType {
 			'show_in_nav_menus'  => true,
 			'query_var'          => true,
 			'rewrite'            => array(
-				'slug'       => _x( 'portfolio', 'URL slug', 'ft-ctp' ),
+				'slug'       => 'portfolio',
 				'with_front' => false,
 			),
 			'capability_type'    => 'post',
