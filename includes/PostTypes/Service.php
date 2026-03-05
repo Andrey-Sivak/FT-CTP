@@ -64,7 +64,7 @@ class Service extends AbstractPostType {
 			'show_in_nav_menus'  => true,
 			'query_var'          => true,
 			'rewrite'            => array(
-				'slug'       => 'services',
+				'slug'       => 'sluzby',
 				'with_front' => false,
 			),
 			'capability_type'    => 'post',
